@@ -5,7 +5,7 @@ namespace StyleCI;
 
 class HelloWorld
 {
-	public function sayHello(\DateTimeImutable $date): void
+	public function sayHello(\DateTimeImmutable $date): void
 	{
 		echo 'Hello, ' . $date->format('j. n. Y');
 	}
