@@ -17,6 +17,6 @@ class HelloWorldTest extends TestCase
 
     public function testAlreadyStarted(): void
     {
-        $this->hw->sayHello(new \DateTimeImutable());
+        $this->hw->sayHello(new \DateTimeImmutable());
     }
 }
